@@ -1,5 +1,3 @@
-
-
 # Operazioni di Algebra Lineare per la Computer Grafica
 
 ## Introduzione
@@ -17,7 +15,7 @@ Un vettore è un'entità matematica che ha una magnitudine e una direzione. In c
 Un vettore in uno spazio 3D può essere rappresentato come:
 
 $$
-\mathbf{v} = \begin{pmatrix} x \\ y \\ z \end{pmatrix}
+\mathbf{v} = \begin{pmatrix} x \\\ y \\\ z \end{pmatrix}
 $$
 
 ### Operazioni con i Vettori
@@ -27,7 +25,7 @@ $$
 L'addizione di due vettori è effettuata sommando i componenti corrispondenti:
 
 $$
-\mathbf{v_1} + \mathbf{v_2} = \begin{pmatrix} x_1 \\ y_1 \\ z_1 \end{pmatrix} + \begin{pmatrix} x_2 \\ y_2 \\ z_2 \end{pmatrix} = \begin{pmatrix} x_1 + x_2 \\ y_1 + y_2 \\ z_1 + z_2 \end{pmatrix}
+\mathbf{v_1} + \mathbf{v_2} = \begin{pmatrix} x_1 \\\ y_1 \\\ z_1 \end{pmatrix} + \begin{pmatrix} x_2 \\\ y_2 \\\ z_2 \end{pmatrix} = \begin{pmatrix} x_1 + x_2 \\\ y_1 + y_2 \\\ z_1 + z_2 \end{pmatrix}
 $$
 
 #### Moltiplicazione per uno Scalare
@@ -35,7 +33,7 @@ $$
 La moltiplicazione di un vettore per uno scalare è definita come:
 
 $$
-a \cdot \mathbf{v} = a \cdot \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} a \cdot x \\ a \cdot y \\ a \cdot z \end{pmatrix}
+a \cdot \mathbf{v} = a \cdot \begin{pmatrix} x \\\ y \\\ z \end{pmatrix} = \begin{pmatrix} a \cdot x \\\ a \cdot y \\\ a \cdot z \end{pmatrix}
 $$
 
 ### Esempio in Python
@@ -69,7 +67,7 @@ Una matrice è una tabella bidimensionale di numeri che rappresenta una trasform
 Una matrice 3x3 per la rotazione in uno spazio 3D è rappresentata come:
 
 $$
-\mathbf{R} = \begin{pmatrix} r_{11} & r_{12} & r_{13} \\ r_{21} & r_{22} & r_{23} \\ r_{31} & r_{32} & r_{33} \end{pmatrix}
+\mathbf{R} = \begin{pmatrix} r_{11} & r_{12} & r_{13} \\\ r_{21} & r_{22} & r_{23} \\\ r_{31} & r_{32} & r_{33} \end{pmatrix}
 $$
 
 ### Operazioni con le Matrici
@@ -79,7 +77,7 @@ $$
 La moltiplicazione di una matrice per un vettore è definita come:
 
 $$
-\mathbf{R} \cdot \mathbf{v} = \begin{pmatrix} r_{11} & r_{12} & r_{13} \\ r_{21} & r_{22} & r_{23} \\ r_{31} & r_{32} & r_{33} \end{pmatrix} \cdot \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} r_{11}x + r_{12}y + r_{13}z \\ r_{21}x + r_{22}y + r_{23}z \\ r_{31}x + r_{32}y + r_{33}z \end{pmatrix}
+\mathbf{R} \cdot \mathbf{v} = \begin{pmatrix} r_{11} & r_{12} & r_{13} \\\ r_{21} & r_{22} & r_{23} \\\ r_{31} & r_{32} & r_{33} \end{pmatrix} \cdot \begin{pmatrix} x \\\ y \\\ z \end{pmatrix} = \begin{pmatrix} r_{11}x + r_{12}y + r_{13}z \\\ r_{21}x + r_{22}y + r_{23}z \\\ r_{31}x + r_{32}y + r_{33}z \end{pmatrix}
 $$
 
 #### Moltiplicazione Matrice-Matrice
@@ -125,7 +123,7 @@ Le trasformazioni in 3D, come la rotazione, la traslazione e la scala, sono esse
 La matrice di rotazione attorno all'asse z è data da:
 
 $$
-\mathbf{R_z}(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta & 0 \\ \sin\theta & \cos\theta & 0 \\ 0 & 0 & 1 \end{pmatrix}
+\mathbf{R_z}(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta & 0 \\\ \sin\theta & \cos\theta & 0 \\\ 0 & 0 & 1 \end{pmatrix}
 $$
 
 ### Traslazione
@@ -139,7 +137,7 @@ $$
 dove:
 
 $$
-\mathbf{t} = \begin{pmatrix} t_x \\ t_y \\ t_z \end{pmatrix}
+\mathbf{t} = \begin{pmatrix} t_x \\\ t_y \\\ t_z \end{pmatrix}
 $$
 
 ### Scala
@@ -147,7 +145,7 @@ $$
 La trasformazione di scala è rappresentata da una matrice diagonale:
 
 $$
-\mathbf{S} = \begin{pmatrix} s_x & 0 & 0 \\ 0 & s_y & 0 \\ 0 & 0 & s_z \end{pmatrix}
+\mathbf{S} = \begin{pmatrix} s_x & 0 & 0 \\\ 0 & s_y & 0 \\\ 0 & 0 & s_z \end{pmatrix}
 $$
 
 ### Esempio in Python
@@ -219,7 +217,7 @@ Il prodotto vettoriale è un'operazione tra due vettori in uno spazio tridimensi
 Dato due vettori \(\mathbf{v_1}\) e \(\mathbf{v_2}\):
 
 $$
-\mathbf{v_1} \times \mathbf{v_2} = \begin{pmatrix} y_1 \cdot z_2 - z_1 \cdot y_2 \\ z_1 \cdot x_2 - x_1 \cdot z_2 \\ x_1 \cdot y_2 - y_1 \cdot x_2 \end{pmatrix}
+\mathbf{v_1} \times \mathbf{v_2} = \begin{pmatrix} y_1 \cdot z_2 - z_1 \cdot y_2 \\\ z_1 \cdot x_2 - x_1 \cdot z_2 \\\ x_1 \cdot y_2 - y_1 \cdot x_2 \end{pmatrix}
 $$
 
 ### Esempio in Python
@@ -249,7 +247,7 @@ Il determinante è un valore scalare associato a una matrice quadrata che fornis
 Per una matrice \(2 \times 2\):
 
 $$
-\text{det}(\mathbf{A}) = \begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc
+\text{det}(\mathbf{A}) = \begin{vmatrix} a & b \\\ c & d \end{vmatrix} = ad - bc
 $$
 
 Per una matrice \(3 \times 3\):
@@ -284,7 +282,7 @@ L'inversa di una matrice è una matrice che, moltiplicata per la matrice origina
 Per una matrice \(2 \times 2\):
 
 $$
-\mathbf{A}^{-1} = \frac{1}{\text{det}(\mathbf{A})} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix}
+\mathbf{A}^{-1} = \frac{1}{\text{det}(\mathbf{A})} \begin{pmatrix} d & -b \\\ -c & a \end{pmatrix}
 $$
 
 ### Esempio in Python
