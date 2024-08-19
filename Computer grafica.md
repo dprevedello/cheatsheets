@@ -172,7 +172,6 @@ print("Vettore ruotato:", v_rotated)
 
 ---
 
-
 # Operazioni Avanzate di Algebra Lineare
 
 ## 1. Prodotto Scalare (Dot Product)
@@ -183,7 +182,7 @@ Il prodotto scalare è un'operazione tra due vettori che restituisce un singolo 
 
 ### Formula
 
-Dati due vettori $\(\mathbf{v_1}\)$ e $\(\mathbf{v_2}\)$:
+Dati due vettori \\( \(\mathbf{v_1}\)$ e $\(\mathbf{v_2}\) )\\:
 
 $$
 \mathbf{v_1} \cdot \mathbf{v_2} = x_1 \cdot x_2 + y_1 \cdot y_2 + z_1 \cdot z_2
