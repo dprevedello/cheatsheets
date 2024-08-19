@@ -172,6 +172,7 @@ print("Vettore ruotato:", v_rotated)
 
 ---
 
+
 # Operazioni Avanzate di Algebra Lineare
 
 ## 1. Prodotto Scalare (Dot Product)
@@ -182,7 +183,7 @@ Il prodotto scalare è un'operazione tra due vettori che restituisce un singolo 
 
 ### Formula
 
-Dato due vettori \(\mathbf{v_1}\) e \(\mathbf{v_2}\):
+Dati due vettori $\(\mathbf{v_1}\)$ e $\(\mathbf{v_2}\)$:
 
 $$
 \mathbf{v_1} \cdot \mathbf{v_2} = x_1 \cdot x_2 + y_1 \cdot y_2 + z_1 \cdot z_2
@@ -214,7 +215,7 @@ Il prodotto vettoriale è un'operazione tra due vettori in uno spazio tridimensi
 
 ### Formula
 
-Dato due vettori \(\mathbf{v_1}\) e \(\mathbf{v_2}\):
+Dati due vettori $\(\mathbf{v_1}\)$ e $\(\mathbf{v_2}\)$:
 
 $$
 \mathbf{v_1} \times \mathbf{v_2} = \begin{pmatrix} y_1 \cdot z_2 - z_1 \cdot y_2 \\\ z_1 \cdot x_2 - x_1 \cdot z_2 \\\ x_1 \cdot y_2 - y_1 \cdot x_2 \end{pmatrix}
@@ -244,13 +245,13 @@ Il determinante è un valore scalare associato a una matrice quadrata che fornis
 
 ### Formula
 
-Per una matrice \(2 \times 2\):
+Per una matrice $\(2 \times 2\)$:
 
 $$
 \text{det}(\mathbf{A}) = \begin{vmatrix} a & b \\\ c & d \end{vmatrix} = ad - bc
 $$
 
-Per una matrice \(3 \times 3\):
+Per una matrice $\(3 \times 3\)$:
 
 $$
 \text{det}(\mathbf{A}) = a(ei - fh) - b(di - fg) + c(dh - eg)
@@ -279,7 +280,7 @@ L'inversa di una matrice è una matrice che, moltiplicata per la matrice origina
 
 ### Formula
 
-Per una matrice \(2 \times 2\):
+Per una matrice $\(2 \times 2\)$:
 
 $$
 \mathbf{A}^{-1} = \frac{1}{\text{det}(\mathbf{A})} \begin{pmatrix} d & -b \\\ -c & a \end{pmatrix}
@@ -308,7 +309,7 @@ Gli autovalori e gli autovettori sono utilizzati per analizzare le proprietà di
 
 ### Formula
 
-Data una matrice \(\mathbf{A}\) e un vettore \(\mathbf{v}\), \(\lambda\) è un autovalore se:
+Data una matrice $\(\mathbf{A}\)$ e un vettore $\(\mathbf{v}\)$, $\(\lambda\)$ è un autovalore se:
 
 $$
 \mathbf{A} \mathbf{v} = \lambda \mathbf{v}
@@ -338,7 +339,7 @@ La trasposta di una matrice è ottenuta scambiando le righe con le colonne. È s
 
 ### Formula
 
-La trasposta di una matrice \(\mathbf{A}\) è denotata come \(\mathbf{A}^T\):
+La trasposta di una matrice $\(\mathbf{A}\)$ è denotata come $\(\mathbf{A}^T\)$:
 
 $$
 \mathbf{A}^T_{ij} = \mathbf{A}_{ji}
@@ -367,13 +368,13 @@ La decomposizione in valori singolari è una tecnica per scomporre una matrice i
 
 ### Formula
 
-Per una matrice \(\mathbf{A}\), la decomposizione SVD è:
+Per una matrice $\(\mathbf{A}\)$, la decomposizione SVD è:
 
 $$
 \mathbf{A} = \mathbf{U} \mathbf{\Sigma} \mathbf{V}^T
 $$
 
-Dove \(\mathbf{U}\) e \(\mathbf{V}\) sono matrici ortogonali e \(\mathbf{\Sigma}\) è una matrice diagonale con i valori singolari.
+Dove $\(\mathbf{U}\)$ e $\(\mathbf{V}\)$ sono matrici ortogonali e $\(\mathbf{\Sigma}\)$ è una matrice diagonale con i valori singolari.
 
 ### Esempio in Python
 
