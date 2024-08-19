@@ -182,7 +182,7 @@ Il prodotto scalare è un'operazione tra due vettori che restituisce un singolo 
 
 ### Formula
 
-Dati due vettori \\( \(\mathbf{v_1}\)$ e $\(\mathbf{v_2}\) )\\:
+Dati due vettori \\( \(\mathbf{v_1}\)$ e $\(\mathbf{v_2}\) \\):
 \\(\LaTeX code\\)
 
 $$
