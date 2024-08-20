@@ -1,4 +1,4 @@
-# Docker Compose Cheat-Sheet
+# Docker Compose
 
 ## Comandi di Base
 
