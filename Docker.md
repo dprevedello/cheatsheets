@@ -34,6 +34,8 @@
 | `docker start $(docker ps -a -q)` | Per avviare tutti i container, sia in esecuzione che fermati |
 | `docker rm -vf $(docker ps -a -q)` | Per eliminare tutti i container, inclusi i volumi associati |
 | `docker rmi -f $(docker images -a -q)` | Per eliminare tutte le immagini |
+| `docker system df` | Mostra lo spazio utilizzato da tutte le immagini/container/volumi/cache |
+| `docker buildx prune -f` | Cancella la cache di build dei container |
 | `docker system prune` | Per eliminare tutte le immagini, container, cache e volumi inutilizzati o sospesi |
 | `docker system prune -a` | Per eliminare tutte le immagini, usate e inutilizzate |
 | `docker system prune --volumes` | Per eliminare tutti i volumi docker |
